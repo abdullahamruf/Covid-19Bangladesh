@@ -13,7 +13,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-    CardView cd1,cd2,cd3;
+    CardView cd1,cd2,cd3,cd4;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         cd1 = (CardView) findViewById(R.id.dhaka);
         cd2 = (CardView) findViewById(R.id.world);
         cd3 = (CardView) findViewById(R.id.traceban);
+        cd4 = (CardView) findViewById(R.id.health);
 
         cd1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -48,6 +49,13 @@ cd2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getApplicationContext(), tracebangladesh.class));
+            }
+        });
+
+        cd4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(),healthandtips.class));
             }
         });
 }}

@@ -50,17 +50,6 @@ android:layout_marginTop="60dp"
                 </ImageView>
 
 
-                <TextView
-                    android:text="@string/hospital"
-                    android:textAlignment="center"
-                    android:textColor="#fff"
-                    android:textSize="18sp"
-
-                    android:textStyle="bold"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:gravity="center_horizontal" />
-
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
@@ -165,6 +154,7 @@ android:layout_marginTop="60dp"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             app:cardElevation="8dp"
+            android:id="@+id/health"
             android:backgroundTint="@color/cardview_dark_background"
             app:cardCornerRadius="8dp"
             >
@@ -185,7 +175,7 @@ android:layout_marginTop="60dp"
 
 
                 <TextView
-                    android:text="@string/instruction"
+                    android:text="Heath and Tips"
                     android:textAlignment="center"
                     android:textColor="#fff"
                     android:textSize="18sp"

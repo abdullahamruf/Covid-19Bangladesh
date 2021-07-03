@@ -147,7 +147,7 @@ public class hospitalfind extends FragmentActivity implements
         currentUserLocationMarker = mMap.addMarker(markerOptions);
 
         mMap.moveCamera(CameraUpdateFactory.newLatLng(latLng));
-        mMap.animateCamera(CameraUpdateFactory.zoomBy(12));
+        mMap.animateCamera(CameraUpdateFactory.zoomBy(8));
 
         if (googleApiClient != null) {
             LocationServices.FusedLocationApi.removeLocationUpdates(googleApiClient, this);
@@ -246,38 +246,38 @@ public class hospitalfind extends FragmentActivity implements
         mMap.addMarker(new MarkerOptions()
                 .position(sydney)
                 .title("Kurmitola General hospital"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
+     //   mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
         LatLng  rasel = new   LatLng   (23.776366, 90.411461);
         mMap.addMarker(new MarkerOptions()
                 .position(rasel)
                 .title("sheikh Rasel Gastroliver Institute and  Hospital"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(rasel));
+       // mMap.moveCamera(CameraUpdateFactory.newLatLng(rasel));
         LatLng lalkuthi = new LatLng(23.788373, 90.346210);
         mMap.addMarker(new MarkerOptions()
                 .position(lalkuthi)
                 .title("Mirpur Lalkuthi Hospital"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(lalkuthi));
+     //   mMap.moveCamera(CameraUpdateFactory.newLatLng(lalkuthi));
         LatLng general = new LatLng(23.714228, 90.405031);
         mMap.addMarker(new MarkerOptions()
                 .position(general)
                 .title("Mohanagar General Hospital, Babubazar,Dhaka"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(general));
+    //    mMap.moveCamera(CameraUpdateFactory.newLatLng(general));
         LatLng railway = new LatLng(23.736269, 90.425090);
         mMap.addMarker(new MarkerOptions()
                 .position(railway)
                 .title("Railway Hospital,Kamolapur"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(railway));
+     //   mMap.moveCamera(CameraUpdateFactory.newLatLng(railway));
         LatLng kwait = new LatLng(23.870575, 90.403590);
         mMap.addMarker(new MarkerOptions()
                 .position(kwait)
                 .title("Bangladesh Kuwait Moitree Hospital, Uttara, Dhaka"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(kwait));
+       // mMap.moveCamera(CameraUpdateFactory.newLatLng(kwait));
 
         LatLng kacpur = new LatLng(23.70305, 90.38872);
         mMap.addMarker(new MarkerOptions()
                 .position(kacpur)
                 .title("Sajida foundation hospital,Kacpur"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(kacpur));
+       // mMap.moveCamera(CameraUpdateFactory.newLatLng(kacpur));
 
 
 

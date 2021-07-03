@@ -149,56 +149,60 @@ public class g1 extends FragmentActivity implements
         if (googleApiClient != null) {
             LocationServices.FusedLocationApi.removeLocationUpdates(googleApiClient, this);
         }
+        LatLng dhaka = new LatLng( 23.777176,  90.399452);
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(dhaka));
+        mMap.animateCamera(CameraUpdateFactory.zoomTo(8));
+
         LatLng sydney = new LatLng(22.993362, 89.820170);
         mMap.addMarker(new MarkerOptions()
                 .position(sydney)
                 .title("Doctors Quarter Sheksaherakhatun MCH,Gopalgonj"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
+
         LatLng kash = new LatLng(23.236771, 89.718876);
         mMap.addMarker(new MarkerOptions()
                 .position(kash)
                 .title("Kashiani new hospital"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(kash));
+
         LatLng muktijodda = new LatLng(23.319474, 89.872460);
         mMap.addMarker(new MarkerOptions()
                 .position(muktijodda)
                 .title("Muktijiddhacomplex,moksedpur"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(muktijodda));
+
         LatLng sariatpur = new LatLng(23.21174, 90.34845);
         mMap.addMarker(new MarkerOptions()
                 .position(sariatpur)
                 .title("Sadar Hospital Sariatpur"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(sariatpur));
+
         LatLng tungipara = new LatLng(22.893981, 89.889685);
         mMap.addMarker(new MarkerOptions()
                 .position(tungipara)
                 .title("Tungipara UHC new building"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(tungipara));
+
         LatLng faridpur = new LatLng(23.47616, 89.81336);
         mMap.addMarker(new MarkerOptions()
                 .position(faridpur)
                 .title("Upazilla Sasthocomplex,Salta,Faridpur"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(faridpur));
+      //  mMap.moveCamera(CameraUpdateFactory.newLatLng(faridpur));
         LatLng gazipur = new LatLng(23.76676, 90.36574);
         mMap.addMarker(new MarkerOptions()
                 .position(gazipur)
                 .title("Ma Oh ShishukollanKendro, Meghdubi ,gazipur"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(gazipur));
+
         LatLng tangail = new LatLng(24.26494, 89.92916);
         mMap.addMarker(new MarkerOptions()
                 .position(tangail)
                 .title("Zilla hospital,traumacentre,tangail"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(tangail));
+
         LatLng nars= new LatLng(23.92984, 90.70290);
         mMap.addMarker(new MarkerOptions()
                 .position(nars)
                 .title("100 Bed zilla hospital,Narshingdi"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(nars));
+
         LatLng madari= new LatLng(23.16550, 90.21209);
         mMap.addMarker(new MarkerOptions()
                 .position(madari)
                 .title("250 sojja hospital new,madaripur"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(madari));
+
 
     }
 
