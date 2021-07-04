@@ -20,7 +20,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Covid19Bangladesh">
-        <activity android:name=".health1"></activity>
+        <activity android:name=".health2"></activity>
+        <activity android:name=".health1" />
         <activity android:name=".healthandtips" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.

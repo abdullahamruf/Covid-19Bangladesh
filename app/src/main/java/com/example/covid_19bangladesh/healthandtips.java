@@ -8,16 +8,23 @@ import android.view.View;
 import android.widget.TextView;
 
 public class healthandtips extends AppCompatActivity {
-TextView t1;
+TextView t1,t2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_healthandtips);
         t1=findViewById(R.id.t1);
+        t2=findViewById(R.id.t2);
         t1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getApplicationContext(), health1.class));
+            }
+        });
+        t2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), health2.class));
             }
         });
     }

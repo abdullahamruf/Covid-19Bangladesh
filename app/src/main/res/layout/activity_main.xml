@@ -42,12 +42,23 @@ android:layout_marginTop="60dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
                 <ImageView
+                    android:layout_gravity="center"
                     android:layout_width="wrap_content"
                     android:background="@drawable/hospital"
                     android:layout_height="wrap_content">
 
 
                 </ImageView>
+                <TextView
+                    android:text="@string/hospital"
+                    android:textAlignment="center"
+                    android:textColor="#fff"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal" />
+
 
 
             </LinearLayout>
@@ -78,6 +89,7 @@ android:layout_marginTop="60dp"
 
                 <ImageView
                     android:layout_width="wrap_content"
+                    android:layout_gravity="center"
                     android:background="@drawable/world1"
                     android:layout_height="wrap_content">
 
@@ -166,6 +178,7 @@ android:layout_marginTop="60dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
                 <ImageView
+                    android:layout_gravity="center"
                     android:layout_width="wrap_content"
                     android:background="@drawable/instuction"
                     android:layout_height="wrap_content">
