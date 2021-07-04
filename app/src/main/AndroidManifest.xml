@@ -20,7 +20,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Covid19Bangladesh">
-        <activity android:name=".health3"></activity>
+        <activity android:name=".health4"></activity>
+        <activity android:name=".health3" />
         <activity android:name=".health2" />
         <activity android:name=".health1" />
         <activity android:name=".healthandtips" />
