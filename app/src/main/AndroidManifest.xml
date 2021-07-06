@@ -77,7 +77,7 @@
             android:label="@string/title_activity_hospitalfind" />
         <activity
             android:name=".Hospital"
-            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
+            android:theme="@style/Theme.Design.NoActionBar" />
         <activity
             android:name=".MainActivity"
             android:theme="@style/Theme.Design.NoActionBar" />

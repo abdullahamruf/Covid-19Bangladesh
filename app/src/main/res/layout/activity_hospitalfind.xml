@@ -18,20 +18,21 @@
         android:layout_height="wrap_content"
 
         >
-        <Button
-
+        <ImageView
+android:layout_alignParentTop="true"
             android:layout_width="wrap_content"
-            android:id="@+id/hospital"
-            android:text="Hospital"
-            android:background="@drawable/round"
-            android:onClick="onclick"
-android:textColor="@color/purple_500"
-            android:textSize="18sp"
-            android:layout_alignParentStart="true"
             android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:maxWidth="42dp"
+            android:maxHeight="42dp"
+            android:background="@drawable/main2"
+            android:scaleType="fitCenter"
+            android:id="@+id/hospital"
+            android:onClick="onclick"
+
             >
 
-        </Button>
+        </ImageView>
     </RelativeLayout>
 
 </RelativeLayout>

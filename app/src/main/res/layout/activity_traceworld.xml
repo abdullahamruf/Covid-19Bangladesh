@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#fff"
+    android:background="#6aa84f"
     tools:context=".MainActivity">
 
     <androidx.cardview.widget.CardView
@@ -497,12 +497,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_margin="20dp"
-        android:background="@color/purple_500"
-        android:text="all country"
-        android:textColor="@android:color/white"
-        android:textSize="15sp"
-        android:padding="5dp"
+        android:layout_margin="8dp"
+        android:backgroundTint="#990000"
+        android:text="ALL COUNTRY"
         android:onClick="goTrackCountries"
         tools:ignore="OnClick" />
 

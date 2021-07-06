@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@drawable/l"
+    android:background="#6aa84f"
     android:orientation="horizontal"
     android:layout_height="match_parent"
     tools:context=".Hospital">
@@ -13,7 +13,8 @@
         android:layout_height="match_parent"
         android:layout_above="@+id/btnTrac"
         android:id="@+id/c1"
-        android:layout_marginBottom="8dp"
+        android:backgroundTint="#fff"
+        android:layout_marginBottom="5dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginTop="5dp"
@@ -213,7 +214,6 @@
                             android:id="@+id/callbutton2"
                             android:gravity="center"
                             android:drawableRight="@drawable/ic_call"
-
                             android:textSize="18sp"
                             android:background="@drawable/bg_round"
                             android:textColor="#fff"
@@ -979,8 +979,9 @@
                             android:layout_height="wrap_content"
                             android:text="call"
                             android:id="@+id/callbutton5"
-                            android:gravity="center"
                             android:drawableRight="@drawable/ic_call"
+                            android:gravity="center"
+                            android:background="@drawable/bg_round"
 
                             android:textSize="18sp"
 
@@ -7261,10 +7262,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_margin="8dp"
-        android:background="@drawable/round"
-        android:text="all division"
-        android:textColor="@android:color/white"
-        android:textSize="15sp"
+        android:background="@drawable/divison"
         android:padding="5dp"
         android:layout_marginRight="5dp"
          />
@@ -7276,12 +7274,11 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_margin="8dp"
-        android:background="@drawable/round"
+        android:background="@drawable/find"
         android:layout_below="@+id/c1"
-        android:text="Get Hospital Direction"
+
         android:onClick="goTrackhospital"
-        android:textColor="@android:color/white"
-        android:textSize="15sp"
+
         android:padding="5dp"
         tools:ignore="OnClick"
         android:layout_alignParentRight="true" />
