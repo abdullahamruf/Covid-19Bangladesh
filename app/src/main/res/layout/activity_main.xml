@@ -28,11 +28,11 @@ android:layout_marginTop="20dp"
             android:layout_marginBottom="16dp"
             android:layout_marginLeft="14dp"
             android:layout_marginRight="14dp"
-            app:cardElevation="8dp"
+            app:cardElevation="6dp"
             android:backgroundTint="@color/cardview_dark_background"
 
             android:id="@+id/dhaka"
-            app:cardCornerRadius="8dp"
+            app:cardCornerRadius="30dp"
             >
 
             <LinearLayout
@@ -78,8 +78,8 @@ android:textAlignment="center"
             android:layout_marginBottom="16dp"
             android:layout_marginLeft="14dp"
             android:layout_marginRight="14dp"
-            app:cardElevation="8dp"
-            app:cardCornerRadius="8dp"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="30dp"
             >
 
             <LinearLayout
@@ -125,8 +125,8 @@ android:text="Trace world"
             android:layout_marginLeft="14dp"
             android:backgroundTint="@color/cardview_dark_background"
             android:layout_marginRight="14dp"
-            app:cardElevation="8dp"
-            app:cardCornerRadius="8dp"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="30dp"
             >
 
             <LinearLayout
@@ -147,8 +147,8 @@ android:text="Trace world"
 
                 <TextView
 
-
-                 android:background="@drawable/shape"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/shape"
                     android:textStyle="italic"
                     android:text="Trace Bangladesh"
                     android:padding="5dp"
@@ -170,10 +170,10 @@ android:text="Trace world"
             android:layout_marginBottom="16dp"
             android:layout_marginLeft="14dp"
             android:layout_marginRight="14dp"
-            app:cardElevation="8dp"
+            app:cardElevation="6dp"
             android:id="@+id/health"
             android:backgroundTint="@color/cardview_dark_background"
-            app:cardCornerRadius="8dp"
+            app:cardCornerRadius="30dp"
             >
 
             <LinearLayout

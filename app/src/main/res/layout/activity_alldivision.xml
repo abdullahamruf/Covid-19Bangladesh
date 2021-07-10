@@ -41,7 +41,7 @@
                 app:cardElevation="8dp"
          android:backgroundTint="@color/cardview_dark_background"
                 android:id="@+id/dhaka"
-                app:cardCornerRadius="8dp"
+                app:cardCornerRadius="10dp"
                 >
 
                 <LinearLayout
@@ -77,7 +77,7 @@
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
                 app:cardElevation="8dp"
-                app:cardCornerRadius="8dp"
+                app:cardCornerRadius="10dp"
                 >
 
                 <LinearLayout
@@ -111,7 +111,7 @@
                 android:layout_marginRight="16dp"
                 app:cardElevation="8dp"
                 android:id="@+id/khulna"
-                app:cardCornerRadius="8dp"
+                app:cardCornerRadius="10dp"
                 >
 
                 <LinearLayout
@@ -144,7 +144,7 @@
                 app:cardElevation="8dp"
                 android:id="@+id/raj"
 
-                app:cardCornerRadius="8dp"
+                app:cardCornerRadius="10dp"
                 >
 
                 <LinearLayout
@@ -177,7 +177,7 @@
                 app:cardElevation="8dp"
                 android:id="@+id/shylet"
 
-                app:cardCornerRadius="8dp"
+                app:cardCornerRadius="10dp"
                 >
 
                 <LinearLayout
@@ -209,7 +209,7 @@
                 android:layout_marginRight="16dp"
                 app:cardElevation="8dp"
                 android:id="@+id/rangpur"
-                app:cardCornerRadius="8dp"
+                app:cardCornerRadius="10dp"
                 >
 
                 <LinearLayout
@@ -241,7 +241,7 @@
                 app:cardElevation="8dp"
                 android:id="@+id/myn"
 
-                app:cardCornerRadius="8dp"
+                app:cardCornerRadius="10dp"
                 >
 
                 <LinearLayout
@@ -273,7 +273,7 @@
                 app:cardElevation="8dp"
                 android:id="@+id/barisal"
 
-                app:cardCornerRadius="8dp"
+                app:cardCornerRadius="10dp"
                 >
 
                 <LinearLayout
