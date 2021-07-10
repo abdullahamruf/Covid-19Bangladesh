@@ -102,4 +102,7 @@
     <string name="title_activity_g1">Map</string>
     <string name="title_activity_tracebd">Map</string>
     <string name="title_activity_khulnafind">Map</string>
+    <string name="title_activity_rangpurfind">Map</string>
+    <string name="title_activity_mumfind">Map</string>
+    <string name="title_activity_rajsahifind">Map</string>
 </resources>

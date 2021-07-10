@@ -34,6 +34,25 @@ CardView dhaka,ctg,raj,shy,rang,mym,khu,bar;
                 startActivity(new Intent(getApplicationContext(), khulnadivison.class));
             }
         });
+       rang.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), rangpur.class));
+            }
+        });
+       mym.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), mymenshing.class));
+            }
+        });
+
+        raj.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), rajsahi.class));
+            }
+        });
 
 
 

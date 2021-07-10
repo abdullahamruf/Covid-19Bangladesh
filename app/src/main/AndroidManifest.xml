@@ -35,8 +35,20 @@
             android:value="@string/google_maps_key" />
 
         <activity
+            android:name=".rajsahifind"
+            android:label="@string/title_activity_rajsahifind"></activity>
+        <activity android:name=".rajsahi" />
+        <activity
+            android:name=".mumfind"
+            android:label="@string/title_activity_mumfind" />
+        <activity android:name=".mymenshing" />
+        <activity
+            android:name=".rangpurfind"
+            android:label="@string/title_activity_rangpurfind" />
+        <activity android:name=".rangpur" />
+        <activity
             android:name=".khulnafind"
-            android:label="@string/title_activity_khulnafind"></activity>
+            android:label="@string/title_activity_khulnafind" />
         <activity android:name=".khulnadivison" />
         <activity android:name=".health6" />
         <activity android:name=".health5" />

@@ -6,234 +6,17 @@
     android:visibility="gone"
     android:background="#FFF"
     android:layout_height="match_parent"
-    tools:context=".khulnadivison">
+    tools:context=".mymenshing">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:id="@+id/l1"
         android:layout_height="wrap_content"
         android:orientation="vertical">
-
-        <TextView
-            android:layout_marginTop="50dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="#006600"
-            android:textStyle="bold"
-            android:textAllCaps="true"
-
-            android:textAlignment="center"
-            android:text="Khulna Diabetic Hospital"
-            android:textSize="28sp" />
-
-        <TextView
-            android:layout_marginTop="20dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="#000"
-            android:gravity="center"
-            android:textStyle="bold"
-            android:text=" Seat 150"
-            android:textSize="28sp" />
-
-
-
-        <Button
-
-            android:id="@+id/dd"
-
-
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="40dp"
-
-            android:background="@drawable/shape"
-            android:layout_gravity="center"
-            android:text="Get Hospital Direction"
-            android:onClick="goTrackhospital"
-            android:textColor="@android:color/white"
-            android:textSize="15sp"
-            android:padding="5dp"
-            tools:ignore="OnClick" />
-
-
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="250 bed sadar hospital's extension building,Bagerhat"
-            android:textAlignment="center"
-            android:textAllCaps="true"
-            android:textSize="28dp"
-            android:textColor="	#006600"
-            android:textStyle="bold"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="15dp"
-            android:gravity="center_horizontal" />
-
-
-        <TextView
-            android:layout_marginTop="40dp"
-            android:layout_gravity="center"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="sans-serif-light"
-            android:text="Seat 100"
-            android:textStyle="bold"
-            android:textColor="#000"
-
-            android:textSize="28sp"/>
-        <Button
-
-            android:id="@+id/bagerhat"
-            android:layout_marginTop="20dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="20dp"
-            android:background="@drawable/shape"
-            android:layout_gravity="center"
-            android:text="Get Hospital Direction"
-            android:onClick="goTrackhospital"
-            android:textColor="#fff"
-            android:textSize="15sp"
-            android:padding="5dp"
-            tools:ignore="OnClick" />
-
-        <TextView
-
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="#006600"
-            android:textAllCaps="true"
-            android:textStyle="bold"
-            android:textAlignment="center"
-            android:text="Shishu Hospital,Jhinaidah"
-            android:textSize="28sp" />
-
-        <TextView
-
-            android:layout_marginTop="20dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="#000"
-            android:gravity="center"
-            android:textStyle="bold"
-            android:text=" Seat 50"
-            android:textSize="28sp" />
-
-
-
-        <Button
-
-            android:id="@+id/jhinaidah"
-            android:layout_marginTop="60dp"
-
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-
-
-            android:background="@drawable/shape"
-            android:layout_gravity="center"
-            android:text="Get Hospital Direction"
-            android:onClick="goTrackhospital"
-            android:textColor="@android:color/white"
-            android:textSize="15sp"
-            android:padding="5dp"
-            tools:ignore="OnClick" />
-
-
-        <TextView
-
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:textColor="#006600"
-            android:textAllCaps="true"
-            android:textStyle="bold"
-            android:textAlignment="center"
-            android:text="Sodor hospital new building,Chuadanga"
-            android:textSize="28sp" />
-
-        <TextView
-
-
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="#000"
-            android:layout_marginTop="20dp"
-            android:gravity="center"
-            android:text=" Seat 150"
-            android:textStyle="bold"
-            android:textSize="28sp" />
-
-
-
-        <Button
-
-            android:id="@+id/chuadanga"
-
-
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-
-            android:layout_marginTop="40dp"
-            android:background="@drawable/shape"
-            android:layout_gravity="center"
-            android:text="Get Hospital Direction"
-            android:onClick="goTrackhospital"
-            android:textColor="@android:color/white"
-            android:textSize="18sp"
-            android:padding="5dp"
-            tools:ignore="OnClick" />
-        <TextView
-
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="#006600"
-            android:textAllCaps="true"
-            android:layout_marginTop="20dp"
-            android:textStyle="bold"
-            android:textAlignment="center"
-            android:text="Medical college Hospital Doctors Dormetory,Shatkhira"
-            android:textSize="28sp" />
-
-        <TextView
-
-            android:layout_marginTop="20dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="#000"
-            android:gravity="center"
-            android:text=" Seat 70"
-            android:textStyle="bold"
-            android:textSize="28sp" />
-
-
-
-        <Button
-
-            android:id="@+id/shatkhira"
-
-
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-
-            android:layout_marginTop="40dp"
-            android:background="@drawable/shape"
-            android:layout_gravity="center"
-            android:text="Get Hospital Direction"
-            android:onClick="goTrackhospital"
-            android:textColor="@android:color/white"
-            android:textSize="15sp"
-            android:padding="5dp"
-            tools:ignore="OnClick" />
-
-
-
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Kushtia Diabetic Hospital, Kushtia"
+            android:text="Sk Hospital,Mymensing"
             android:textAlignment="center"
             android:textAllCaps="true"
             android:textSize="28dp"
@@ -253,14 +36,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-light"
-            android:text="Seat 30"
+            android:text="Seat 75"
             android:textStyle="bold"
             android:textColor="#000"
 
             android:textSize="28sp"/>
         <Button
 
-            android:id="@+id/kushtia1"
+            android:id="@+id/mymensing"
             android:layout_marginTop="20dp"
 
             android:layout_width="wrap_content"
@@ -275,10 +58,11 @@
             android:textSize="15sp"
             android:padding="5dp"
             tools:ignore="OnClick" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="250 bededsadar hospital extension building"
+            android:text="Mymensing Medical College Hospital,Mymensing"
             android:textAlignment="center"
             android:textAllCaps="true"
             android:textSize="28dp"
@@ -298,14 +82,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-light"
-            android:text="Seat 30"
+            android:text="Seat 700"
             android:textStyle="bold"
             android:textColor="#000"
 
             android:textSize="28sp"/>
         <Button
 
-            android:id="@+id/kushtia2"
+            android:id="@+id/mymensing1"
             android:layout_marginTop="20dp"
 
             android:layout_width="wrap_content"
@@ -320,10 +104,11 @@
             android:textSize="15sp"
             android:padding="5dp"
             tools:ignore="OnClick" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="impect hospital private,Meherpur"
+            android:text="Shodesh hospital Pvt,Mymensing"
             android:textAlignment="center"
             android:textAllCaps="true"
             android:textSize="28dp"
@@ -343,14 +128,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-light"
-            android:text="Seat 20"
+            android:text="Seat 45"
             android:textStyle="bold"
             android:textColor="#000"
 
             android:textSize="28sp"/>
         <Button
 
-            android:id="@+id/meherpur"
+            android:id="@+id/mymensing2"
             android:layout_marginTop="20dp"
 
             android:layout_width="wrap_content"
@@ -365,10 +150,11 @@
             android:textSize="15sp"
             android:padding="5dp"
             tools:ignore="OnClick" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TB hospital, Jashore"
+            android:text="Pranto pvt sepcialized hospital,Mymensing"
             android:textAlignment="center"
             android:textAllCaps="true"
             android:textSize="28dp"
@@ -388,14 +174,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-light"
-            android:text="Seat 30"
+            android:text="Seat 55"
             android:textStyle="bold"
             android:textColor="#000"
 
             android:textSize="28sp"/>
         <Button
 
-            android:id="@+id/jashore"
+            android:id="@+id/mymensing3"
             android:layout_marginTop="20dp"
 
             android:layout_width="wrap_content"
@@ -410,10 +196,11 @@
             android:textSize="15sp"
             android:padding="5dp"
             tools:ignore="OnClick" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Sadar Hospital,Narail"
+            android:text="Nexus Hospital,Mymensing"
             android:textAlignment="center"
             android:textAllCaps="true"
             android:textSize="28dp"
@@ -433,14 +220,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-light"
-            android:text="Seat 20"
+            android:text="Seat 75"
             android:textStyle="bold"
             android:textColor="#000"
 
             android:textSize="28sp"/>
         <Button
 
-            android:id="@+id/narail1"
+            android:id="@+id/mymensing4"
             android:layout_marginTop="20dp"
 
             android:layout_width="wrap_content"
@@ -455,10 +242,103 @@
             android:textSize="15sp"
             android:padding="5dp"
             tools:ignore="OnClick" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Kalia Upozila Health Complex,Narail"
+            android:text="Liberty hospital,Mymensing"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textSize="28dp"
+            android:textColor="	#006600"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal" />
+
+
+
+
+
+        <TextView
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:text="Seat 40"
+            android:textStyle="bold"
+            android:textColor="#000"
+
+            android:textSize="28sp"/>
+        <Button
+
+            android:id="@+id/mymensing5"
+            android:layout_marginTop="20dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+            android:background="@drawable/shape"
+            android:layout_gravity="center"
+            android:text="Get Hospital Direction"
+            android:onClick="goTrackhospital"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:padding="5dp"
+            tools:ignore="OnClick" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Atpara Upoziila Health Complex,Netrokona"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textSize="28dp"
+            android:textColor="	#006600"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal" />
+
+
+
+
+
+        <TextView
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:text="Seat 50"
+            android:textStyle="bold"
+            android:textColor="#000"
+
+            android:textSize="28sp"/>
+        <Button
+
+            android:id="@+id/netro"
+            android:layout_marginTop="20dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+            android:background="@drawable/shape"
+            android:layout_gravity="center"
+            android:text="Get Hospital Direction"
+            android:onClick="goTrackhospital"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:padding="5dp"
+            tools:ignore="OnClick" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Netrokona General Hosppital,Netrokona"
             android:textAlignment="center"
             android:textAllCaps="true"
             android:textSize="28dp"
@@ -485,7 +365,7 @@
             android:textSize="28sp"/>
         <Button
 
-            android:id="@+id/narail2"
+            android:id="@+id/netro1"
             android:layout_marginTop="20dp"
 
             android:layout_width="wrap_content"
@@ -504,7 +384,53 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Lohagara Upozila Health Complex,Narail"
+            android:text="Shekh Hasina Medical College,Jamalpur"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textSize="28dp"
+            android:textColor="	#006600"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal" />
+
+
+
+
+
+        <TextView
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:text="Seat 50"
+            android:textStyle="bold"
+            android:textColor="#000"
+
+            android:textSize="28sp"/>
+        <Button
+
+            android:id="@+id/jamalpur"
+            android:layout_marginTop="20dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+            android:background="@drawable/shape"
+            android:layout_gravity="center"
+            android:text="Get Hospital Direction"
+            android:onClick="goTrackhospital"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:padding="5dp"
+            tools:ignore="OnClick" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Melandaha Upozila Health complex,Jamalpur"
             android:textAlignment="center"
             android:textAllCaps="true"
             android:textSize="28dp"
@@ -531,7 +457,7 @@
             android:textSize="28sp"/>
         <Button
 
-            android:id="@+id/narail3"
+            android:id="@+id/jamalpur1"
             android:layout_marginTop="20dp"
 
             android:layout_width="wrap_content"
@@ -550,7 +476,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Magura Sadar Hospital,Magura"
+            android:text="Madarganj Upozila Health complex,Jamalpur"
             android:textAlignment="center"
             android:textAllCaps="true"
             android:textSize="28dp"
@@ -570,14 +496,244 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-light"
-            android:text="Seat 20"
+            android:text="Seat 5"
             android:textStyle="bold"
             android:textColor="#000"
 
             android:textSize="28sp"/>
         <Button
 
-            android:id="@+id/magura"
+            android:id="@+id/jamalpur2"
+            android:layout_marginTop="20dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+            android:background="@drawable/shape"
+            android:layout_gravity="center"
+            android:text="Get Hospital Direction"
+            android:onClick="goTrackhospital"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:padding="5dp"
+            tools:ignore="OnClick" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Islampur Upozila Health complex,Jamalpur"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textSize="28dp"
+            android:textColor="	#006600"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal" />
+
+
+
+
+
+        <TextView
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:text="Seat 5"
+            android:textStyle="bold"
+            android:textColor="#000"
+
+            android:textSize="28sp"/>
+        <Button
+
+            android:id="@+id/jamalpur3"
+            android:layout_marginTop="20dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+            android:background="@drawable/shape"
+            android:layout_gravity="center"
+            android:text="Get Hospital Direction"
+            android:onClick="goTrackhospital"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:padding="5dp"
+            tools:ignore="OnClick" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sarishabari Upozila Health complex,Jamalpur"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textSize="28dp"
+            android:textColor="	#006600"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal" />
+
+
+
+
+
+        <TextView
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:text="Seat 5"
+            android:textStyle="bold"
+            android:textColor="#000"
+
+            android:textSize="28sp"/>
+        <Button
+
+            android:id="@+id/jamalpur4"
+            android:layout_marginTop="20dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+            android:background="@drawable/shape"
+            android:layout_gravity="center"
+            android:text="Get Hospital Direction"
+            android:onClick="goTrackhospital"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:padding="5dp"
+            tools:ignore="OnClick" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dewanganj Upozila Health complex,Jamalpur"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textSize="28dp"
+            android:textColor="	#006600"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal" />
+
+
+
+
+
+        <TextView
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:text="Seat 5"
+            android:textStyle="bold"
+            android:textColor="#000"
+
+            android:textSize="28sp"/>
+        <Button
+
+            android:id="@+id/jamalpur5"
+            android:layout_marginTop="20dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+            android:background="@drawable/shape"
+            android:layout_gravity="center"
+            android:text="Get Hospital Direction"
+            android:onClick="goTrackhospital"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:padding="5dp"
+            tools:ignore="OnClick" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bakshiganj Upozila Health complex,Jamalpur"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textSize="28dp"
+            android:textColor="	#006600"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal" />
+
+
+
+
+
+        <TextView
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:text="Seat 5"
+            android:textStyle="bold"
+            android:textColor="#000"
+
+            android:textSize="28sp"/>
+        <Button
+
+            android:id="@+id/jamalpur6"
+            android:layout_marginTop="20dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+            android:background="@drawable/shape"
+            android:layout_gravity="center"
+            android:text="Get Hospital Direction"
+            android:onClick="goTrackhospital"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:padding="5dp"
+            tools:ignore="OnClick" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sherpur Sadar Hospital,Sherpur"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textSize="28dp"
+            android:textColor="	#006600"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal" />
+
+
+
+
+
+        <TextView
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:text="Seat 50"
+            android:textStyle="bold"
+            android:textColor="#000"
+
+            android:textSize="28sp"/>
+        <Button
+
+            android:id="@+id/sherpur"
             android:layout_marginTop="20dp"
 
             android:layout_width="wrap_content"
