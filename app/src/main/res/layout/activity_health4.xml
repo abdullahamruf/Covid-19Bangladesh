@@ -255,7 +255,7 @@
         android:layout_height="wrap_content">
 
         <ImageView
-
+            android:id="@+id/img1"
             android:adjustViewBounds="true"
             android:scaleType="center"
             android:layout_width="match_parent"

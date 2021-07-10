@@ -2,18 +2,22 @@ package com.example.covid_19bangladesh;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
 public class health4 extends AppCompatActivity {
     TextView t1,t2,t3,t4,t5,t6,t7,t8,tsp,t21;
     ScrollView sv;
+    ImageView img;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_health4);
+        img=findViewById(R.id.img1);
         sv=findViewById(R.id.sc);
         t1=findViewById(R.id.t1);
         t2=findViewById(R.id.t2);
@@ -37,5 +41,12 @@ public class health4 extends AppCompatActivity {
         t7.setText("৭.নীলচে চেহারা/ঠোঁট/জিভ");
 
         t21.setText("=> রোগীকে যত দ্রুত সম্ভব হাসপাতালে ভর্তি করতে হবে।");
+        img.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), MainActivity.class));
+            }
+        });
     }
+
 }

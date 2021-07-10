@@ -28,5 +28,14 @@ CardView dhaka,ctg,raj,shy,rang,mym,khu,bar;
                startActivity(new Intent(getApplicationContext(), dhakadivison.class));
            }
        });
+       khu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), khulnadivison.class));
+            }
+        });
+
+
+
     }
 }

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.covid_19bangladesh">
+
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
          Google Maps Android API v2, but you must specify either coarse or fine
@@ -20,13 +21,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Covid19Bangladesh">
-        <activity android:name=".health6"></activity>
-        <activity android:name=".health5" />
-        <activity android:name=".health4" />
-        <activity android:name=".health3" />
-        <activity android:name=".health2" />
-        <activity android:name=".health1" />
-        <activity android:name=".healthandtips" />
+
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -39,6 +34,17 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
 
+        <activity
+            android:name=".khulnafind"
+            android:label="@string/title_activity_khulnafind"></activity>
+        <activity android:name=".khulnadivison" />
+        <activity android:name=".health6" />
+        <activity android:name=".health5" />
+        <activity android:name=".health4" />
+        <activity android:name=".health3" />
+        <activity android:name=".health2" />
+        <activity android:name=".health1" />
+        <activity android:name=".healthandtips" />
         <activity
             android:name=".tracebd"
             android:label="@string/title_activity_tracebd" />

@@ -101,4 +101,5 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_g1">Map</string>
     <string name="title_activity_tracebd">Map</string>
+    <string name="title_activity_khulnafind">Map</string>
 </resources>

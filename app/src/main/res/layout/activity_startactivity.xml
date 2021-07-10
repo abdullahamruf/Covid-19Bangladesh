@@ -32,7 +32,7 @@
         android:layout_height="wrap_content"
         android:textSize="15sp"
         android:fontFamily="sans-serif-medium"
-        android:textStyle="bold"
+        android:textStyle="bold|italic"
         android:textColor="#000"
         android:lineSpacingExtra="31sp"
 android:layout_marginBottom="15dp"
