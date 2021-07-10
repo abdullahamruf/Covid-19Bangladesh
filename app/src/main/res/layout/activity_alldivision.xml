@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@color/cardview_dark_background"
+    android:background="@color/purple_500"
     android:layout_height="match_parent"
 
     tools:context=".alldivision">
@@ -39,7 +39,7 @@
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
                 app:cardElevation="8dp"
-                android:backgroundTint="#000"
+         android:backgroundTint="@color/cardview_dark_background"
                 android:id="@+id/dhaka"
                 app:cardCornerRadius="8dp"
                 >
@@ -54,12 +54,10 @@
 
 
                     <TextView
-                        android:text="Dhaka Division"
-                        android:textAlignment="center"
-                        android:textColor="#fff"
-                        android:textSize="18sp"
 
-                        android:textStyle="bold"
+
+                        android:background="@drawable/dha"
+
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
@@ -74,7 +72,7 @@
                 android:id="@+id/ctg"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
-                android:backgroundTint="#000"
+
                 android:layout_marginBottom="16dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
@@ -92,11 +90,8 @@
 
 
                     <TextView
-                        android:text="Chittagong Division"
-                        android:textAlignment="center"
-                        android:textColor="#fff"
-                        android:textSize="18sp"
-                        android:textStyle="bold"
+                        android:background="@drawable/ctg"
+
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
@@ -112,7 +107,7 @@
                 android:layout_rowWeight="1"
                 android:layout_marginBottom="16dp"
                 android:layout_marginLeft="16dp"
-                android:backgroundTint="#000"
+
                 android:layout_marginRight="16dp"
                 app:cardElevation="8dp"
                 android:id="@+id/khulna"
@@ -129,11 +124,7 @@
 
 
                     <TextView
-                        android:text="Khulna Division"
-                        android:textAlignment="center"
-                        android:textColor="#fff"
-                        android:textSize="18sp"
-                        android:textStyle="bold"
+                       android:background="@drawable/khu"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
@@ -152,7 +143,7 @@
                 android:layout_marginRight="16dp"
                 app:cardElevation="8dp"
                 android:id="@+id/raj"
-                android:backgroundTint="#000"
+
                 app:cardCornerRadius="8dp"
                 >
 
@@ -164,11 +155,7 @@
                     android:layout_height="wrap_content">
 
                     <TextView
-                        android:text="Rajshahi Division"
-                        android:textAlignment="center"
-                        android:textColor="#fff"
-                        android:textSize="18sp"
-                        android:textStyle="bold"
+                       android:background="@drawable/raj"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
@@ -189,7 +176,7 @@
                 android:layout_marginRight="16dp"
                 app:cardElevation="8dp"
                 android:id="@+id/shylet"
-                android:backgroundTint="#000"
+
                 app:cardCornerRadius="8dp"
                 >
 
@@ -202,11 +189,7 @@
 
 
                     <TextView
-                        android:text="Sylhet Division"
-                        android:textAlignment="center"
-                        android:textColor="#fff"
-                        android:textSize="18sp"
-                        android:textStyle="bold"
+                      android:background="@drawable/shy"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
@@ -216,7 +199,7 @@
 
 
             <androidx.cardview.widget.CardView
-                android:backgroundTint="#000"
+
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_columnWeight="1"
@@ -240,11 +223,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Rangpur Division"
-                        android:textAlignment="center"
-                        android:textColor="#fff"
-                        android:textSize="18sp"
-                        android:textStyle="bold" />
+                        android:background="@drawable/rng" />
 
                 </LinearLayout>
 
@@ -261,7 +240,7 @@
                 android:layout_marginRight="16dp"
                 app:cardElevation="8dp"
                 android:id="@+id/myn"
-                android:backgroundTint="#000"
+
                 app:cardCornerRadius="8dp"
                 >
 
@@ -275,11 +254,7 @@
 
 
                     <TextView
-                        android:text="Mymensingh Division"
-                        android:textAlignment="center"
-                        android:textColor="#fff"
-                        android:textSize="15sp"
-                        android:textStyle="bold"
+                      android:background="@drawable/myn"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
                 </LinearLayout>
@@ -297,7 +272,7 @@
                 android:layout_marginRight="16dp"
                 app:cardElevation="8dp"
                 android:id="@+id/barisal"
-                android:backgroundTint="#000"
+
                 app:cardCornerRadius="8dp"
                 >
 
@@ -310,11 +285,7 @@
 
 
                     <TextView
-                        android:text="Barisal Division"
-                        android:textAlignment="center"
-                        android:textColor="#fff"
-                        android:textSize="18sp"
-                        android:textStyle="bold"
+                       android:background="@drawable/bar"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
