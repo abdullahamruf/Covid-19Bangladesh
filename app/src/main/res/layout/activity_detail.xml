@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@color/purple_700"
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".DetailActivity">
@@ -40,13 +41,7 @@
             android:layout_alignParentRight="true"/>
 
     </RelativeLayout>
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="#fff"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        />
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -77,13 +72,7 @@
             android:layout_alignParentRight="true"/>
 
     </RelativeLayout>
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="#fff"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        />
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -114,13 +103,7 @@
             android:layout_alignParentRight="true"/>
 
     </RelativeLayout>
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="#fff"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        />
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -151,13 +134,7 @@
             android:layout_alignParentRight="true"/>
 
     </RelativeLayout>
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="#fff"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        />
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -188,13 +165,7 @@
             android:layout_alignParentRight="true"/>
 
     </RelativeLayout>
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="#fff"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        />
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -225,13 +196,7 @@
             android:layout_alignParentRight="true"/>
 
     </RelativeLayout>
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="#fff"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        />
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -262,13 +227,7 @@
             android:layout_alignParentRight="true"/>
 
     </RelativeLayout>
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="#fff"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        />
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -299,13 +258,7 @@
 
     </RelativeLayout>
 
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="#fff"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        />
+
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="180dp"

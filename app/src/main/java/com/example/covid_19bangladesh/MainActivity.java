@@ -3,6 +3,8 @@ package com.example.covid_19bangladesh;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 
+import android.app.UiModeManager;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Gravity;
@@ -14,10 +16,12 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     CardView cd1,cd2,cd3,cd4;
+    private UiModeManager uiModeManager;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        uiModeManager = (UiModeManager) getSystemService(UI_MODE_SERVICE);
         cd1 = (CardView) findViewById(R.id.dhaka);
         cd2 = (CardView) findViewById(R.id.world);
         cd3 = (CardView) findViewById(R.id.traceban);
@@ -58,4 +62,11 @@ cd2.setOnClickListener(new View.OnClickListener() {
                 startActivity(new Intent(getApplicationContext(),healthandtips.class));
             }
         });
-}}
+
+}
+
+
+}
+
+
+
