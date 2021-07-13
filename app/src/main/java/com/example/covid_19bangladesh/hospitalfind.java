@@ -143,7 +143,8 @@ public class hospitalfind extends FragmentActivity implements
         markerOptions.position(latLng);
         markerOptions.title("Your Current Location");
         markerOptions.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN));
-
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(latLng));
+        mMap.animateCamera(CameraUpdateFactory.zoomTo(12));
         currentUserLocationMarker = mMap.addMarker(markerOptions);
 
         if (googleApiClient != null) {
@@ -238,12 +239,7 @@ public class hospitalfind extends FragmentActivity implements
 
 
     public void hospital() {
-        LatLng dhaka = new LatLng(23.777176, 90.399452);
-        mMap.addMarker(new MarkerOptions()
-                .position(dhaka));
 
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(dhaka));
-        mMap.animateCamera(CameraUpdateFactory.zoomTo(5));
 
 
         LatLng sydney = new LatLng(23.821226, 90.410681);

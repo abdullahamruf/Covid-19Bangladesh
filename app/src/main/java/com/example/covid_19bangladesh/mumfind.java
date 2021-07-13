@@ -140,14 +140,13 @@ public class mumfind extends FragmentActivity implements
         currentUserLocationMarker = mMap.addMarker(markerOptions);
 
         mMap.moveCamera(CameraUpdateFactory.newLatLng(latLng));
-        mMap.animateCamera(CameraUpdateFactory.zoomBy(12));
+        mMap.animateCamera(CameraUpdateFactory.zoomTo(8));
 
         if (googleApiClient != null) {
             LocationServices.FusedLocationApi.removeLocationUpdates(googleApiClient, this);
         }
-        LatLng mum= new LatLng(  24.743448, 90.398384);
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(mum));
-        mMap.animateCamera(CameraUpdateFactory.zoomTo(8));
+
+
 
         LatLng mymensing = new LatLng(24.75205, 90.41684);
         mMap.addMarker(new MarkerOptions()

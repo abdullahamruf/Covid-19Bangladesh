@@ -144,14 +144,12 @@ public class g1 extends FragmentActivity implements
         currentUserLocationMarker = mMap.addMarker(markerOptions);
 
         mMap.moveCamera(CameraUpdateFactory.newLatLng(latLng));
-        mMap.animateCamera(CameraUpdateFactory.zoomBy(12));
+        mMap.animateCamera(CameraUpdateFactory.zoomTo(8));
 
         if (googleApiClient != null) {
             LocationServices.FusedLocationApi.removeLocationUpdates(googleApiClient, this);
         }
-        LatLng dhaka = new LatLng( 23.777176,  90.399452);
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(dhaka));
-        mMap.animateCamera(CameraUpdateFactory.zoomTo(8));
+
 
         LatLng sydney = new LatLng(22.993362, 89.820170);
         mMap.addMarker(new MarkerOptions()

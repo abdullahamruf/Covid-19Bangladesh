@@ -140,14 +140,12 @@ public class rangpurfind extends FragmentActivity implements
         currentUserLocationMarker = mMap.addMarker(markerOptions);
 
         mMap.moveCamera(CameraUpdateFactory.newLatLng(latLng));
-        mMap.animateCamera(CameraUpdateFactory.zoomBy(12));
+        mMap.animateCamera(CameraUpdateFactory.zoomTo(8));
 
         if (googleApiClient != null) {
             LocationServices.FusedLocationApi.removeLocationUpdates(googleApiClient, this);
         }
-        LatLng rangpur= new LatLng( 25.744860,  		89.2755893);
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(rangpur));
-        mMap.animateCamera(CameraUpdateFactory.zoomTo(8));
+
 
         LatLng rangpur1 = new LatLng(25.73245, 89.23810);
         mMap.addMarker(new MarkerOptions()

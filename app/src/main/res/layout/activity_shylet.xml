@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/scrl"
+    android:visibility="gone"
+    android:background="#fff"
+    android:layout_height="match_parent"
+    tools:context=".shylet">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/l1"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#006600"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:textAlignment="center"
+            android:text="Sahid Shamsuddin Ahmed Hospital,Sylhet"
+            android:textSize="28sp" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text=" Seat 98"
+            android:textSize="28sp" />
+
+        <Button
+            android:id="@+id/Sylt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/shape"
+            android:layout_gravity="center"
+            android:text="Get Hospital Direction"
+            android:onClick="goTrackhospital"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            android:padding="5dp"
+            tools:ignore="OnClick" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contagious Disease (I.D) Hospital,Shylhet"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textSize="28dp"
+            android:textColor="	#006600"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:text="Seat 20"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textSize="28sp"/>
+
+        <Button
+            android:id="@+id/Sylt2"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/shape"
+            android:layout_gravity="center"
+            android:text="Get Hospital Direction"
+            android:onClick="goTrackhospital"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:padding="5dp"
+            tools:ignore="OnClick" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#006600"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:text="Moulvi Bazar Sadar Hospital,Moulvi Bazar"
+            android:textSize="28sp" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text=" Seat 8"
+            android:textSize="28sp" />
+
+        <Button
+            android:id="@+id/Sylt3"
+            android:layout_marginTop="60dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape"
+            android:layout_gravity="center"
+            android:text="Get Hospital Direction"
+            android:onClick="goTrackhospital"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            android:padding="5dp"
+            tools:ignore="OnClick" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColor="#006600"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:text="Rajnagar Upazila Health Complex,Moulvi Bazar"
+            android:textSize="28sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text=" Seat 20"
+            android:textStyle="bold"
+            android:textSize="28sp" />
+
+
+        <Button
+            android:id="@+id/Sylt4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/shape"
+            android:layout_gravity="center"
+            android:text="Get Hospital Direction"
+            android:onClick="goTrackhospital"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:padding="5dp"
+            tools:ignore="OnClick" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#006600"
+            android:textAllCaps="true"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:text="Sadar Hospital New Building, Sunamganj"
+            android:textSize="28sp" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:gravity="center"
+            android:text=" Seat 100"
+            android:textStyle="bold"
+            android:textSize="28sp" />
+
+
+        <Button
+            android:id="@+id/Sylt5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/shape"
+            android:layout_gravity="center"
+            android:text="Get Hospital Direction"
+            android:onClick="goTrackhospital"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            android:padding="5dp"
+            tools:ignore="OnClick" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Adhunik Zilla Sadar Hospital, Habiganj"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textSize="28dp"
+            android:textColor="	#006600"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal" />
+
+
+        <TextView
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:text="Seat 100"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textSize="28sp"/>
+
+        <Button
+            android:id="@+id/Sylt6"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape"
+            android:layout_gravity="center"
+            android:text="Get Hospital Direction"
+            android:onClick="goTrackhospital"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:padding="5dp"
+            tools:ignore="OnClick" />
+
+    </LinearLayout>
+
+</ScrollView>

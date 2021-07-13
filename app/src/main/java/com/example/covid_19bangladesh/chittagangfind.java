@@ -1,15 +1,18 @@
 package com.example.covid_19bangladesh;
+
 import android.Manifest;
 import android.content.pm.PackageManager;
 import android.location.Location;
 import android.os.Build;
 import android.os.Bundle;
 import android.widget.Toast;
+
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 import androidx.fragment.app.FragmentActivity;
+
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.location.LocationListener;
@@ -25,7 +28,7 @@ import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 
 
-public class rajsahifind extends FragmentActivity implements
+public class chittagangfind extends FragmentActivity implements
         OnMapReadyCallback,
         GoogleApiClient.ConnectionCallbacks,
         GoogleApiClient.OnConnectionFailedListener,
@@ -47,7 +50,7 @@ public class rajsahifind extends FragmentActivity implements
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_rajsahifind);
+        setContentView(R.layout.activity_chittagangfind);
 
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
@@ -140,84 +143,84 @@ public class rajsahifind extends FragmentActivity implements
         currentUserLocationMarker = mMap.addMarker(markerOptions);
 
         mMap.moveCamera(CameraUpdateFactory.newLatLng(latLng));
-        mMap.animateCamera(CameraUpdateFactory.zoomTo(8));
+       mMap.animateCamera(CameraUpdateFactory.zoomTo(8));
 
         if (googleApiClient != null) {
             LocationServices.FusedLocationApi.removeLocationUpdates(googleApiClient, this);
         }
-
-
-        LatLng rajshahi = new LatLng(24.37214, 88.58142);
+        LatLng Chittagong = new LatLng(22.34086, 91.83774);
         mMap.addMarker(new MarkerOptions()
-                .position(rajshahi)
-                .title("CDM Hospital pvt,Rajshahi"));
-      //  mMap.moveCamera(CameraUpdateFactory.newLatLng(rajshahi));
+                .position(Chittagong)
+                .title("Chittagong General Hospital,Chittagong"));
+        //mMap.moveCamera(CameraUpdateFactory.newLatLng(Chittagong));
+       // mMap.animateCamera(CameraUpdateFactory.zoomTo(8));
 
-        LatLng rajshahi1 = new LatLng(24.37703, 88.57981);
+        LatLng Khagrachori = new LatLng(23.11160, 91.99217);
         mMap.addMarker(new MarkerOptions()
-                .position(rajshahi1)
-                .title("Infectious Disease Hospital,Rajshahi"));
-       // mMap.moveCamera(CameraUpdateFactory.newLatLng(rajshahi1));
+                .position(Khagrachori)
+                .title("Khagrachari Medical Centre,Khagrachari"));
 
-        LatLng rajshahi2 = new LatLng(24.38053, 88.58657);
-        mMap.addMarker(new MarkerOptions()
-                .position(rajshahi2)
-                .title("Mohila Krira Complex,Rajshahi"));
-      //  mMap.moveCamera(CameraUpdateFactory.newLatLng(rajshahi2));
 
-        LatLng rajshahi3 = new LatLng(24.36615, 88.66347);
+        LatLng Comilla = new LatLng(23.44154, 91.17389);
         mMap.addMarker(new MarkerOptions()
-                .position(rajshahi3)
-                .title("Rajshahi Cancer hospital and research centre trust,Rajshahi"));
-      //  mMap.moveCamera(CameraUpdateFactory.newLatLng(rajshahi3));
+                .position(Comilla)
+                .title("Modern Hospital,Comilla"));
 
-        LatLng rajshahi4 = new LatLng(24.37757, 88.57982);
-        mMap.addMarker(new MarkerOptions()
-                .position(rajshahi4)
-                .title("Leprosy control centre,Rajshahi"));
-       // mMap.moveCamera(CameraUpdateFactory.newLatLng(rajshahi4));
 
-        LatLng pabna = new LatLng(23.99967, 89.26399);
+        LatLng Rangamati = new LatLng(22.66433, 92.16095);
         mMap.addMarker(new MarkerOptions()
-                .position(pabna)
-                .title("Amina Monsur Girls High School,Pabna"));
-      //  mMap.moveCamera(CameraUpdateFactory.newLatLng(pabna));
+                .position(Rangamati)
+                .title("Rangamati Govt. College,Rangamati"));
 
-        LatLng joypurhat = new LatLng(24.96513, 89.08286);
-        mMap.addMarker(new MarkerOptions()
-                .position(joypurhat)
-                .title("Institute of Health Technology,Joypurhat"));
-       // mMap.moveCamera(CameraUpdateFactory.newLatLng(joypurhat));
 
-        LatLng naogaon = new LatLng(24.80905, 88.94552);
+        LatLng Chittagong2 = new LatLng(22.39275, 91.75851);
         mMap.addMarker(new MarkerOptions()
-                .position(naogaon)
-                .title("Old Hospital,Naogaon"));
-       // mMap.moveCamera(CameraUpdateFactory.newLatLng(naogaon));
+                .position(Chittagong2)
+                .title("Bangladesh Institute of Tropical and Infectious Disease, Chittagong"));
 
-        LatLng chapainobabganj = new LatLng(24.60380, 88.25319);
-        mMap.addMarker(new MarkerOptions()
-                .position(chapainobabganj)
-                .title("Chapainobabgonj polytechnic institute,Chapainobabganj"));
-       // mMap.moveCamera(CameraUpdateFactory.newLatLng(chapainobabganj));
 
-        LatLng Bogura = new LatLng(24.83561, 89.37417);
+        LatLng Feni = new LatLng(23.01029, 91.37783);
         mMap.addMarker(new MarkerOptions()
-                .position(Bogura)
-                .title("Mohammad Ali Hospital, Bogura"));
-      //  mMap.moveCamera(CameraUpdateFactory.newLatLng(Bogura));
+                .position(Feni)
+                .title("Trauma Centre, Feni"));
 
-        LatLng sirajganj = new LatLng(24.48933, 89.68293);
+
+        LatLng Chandpur = new LatLng(23.22500, 90.66009);
         mMap.addMarker(new MarkerOptions()
-                .position(sirajganj)
-                .title("Khokshabari Hospital, Sirajganj"));
-       // mMap.moveCamera(CameraUpdateFactory.newLatLng(sirajganj));
+                .position(Chandpur)
+                .title("Private hospital,Chandpur"));
+
+
+        LatLng Brahmanbari = new LatLng(23.97635, 91.11156);
+        mMap.addMarker(new MarkerOptions()
+                .position(Brahmanbari)
+                .title("250 Bedded General Hospital, Brahmanbari"));
+
+
+        LatLng CBazar = new LatLng(21.44507, 92.10009);
+        mMap.addMarker(new MarkerOptions()
+                .position(CBazar)
+                .title("Ramu Upazila Health Complex,Cox's Bazar"));
+
+
+        LatLng Bandarban = new LatLng(22.18985, 92.22645);
+        mMap.addMarker(new MarkerOptions()
+                .position(Bandarban)
+                .title("Bandarban Sadar Hospital,Bandarban"));
+
+
+        LatLng Noakhali = new LatLng(22.87278, 91.08848);
+        mMap.addMarker(new MarkerOptions()
+                .position(Noakhali)
+                .title("Noakhali General Hospital,Noakhali"));
+
+
 
     }
 
 
 
-
+    @Override
     public void onConnected(@Nullable Bundle bundle) {
         locationRequest = new LocationRequest();
         locationRequest.setInterval(1100);

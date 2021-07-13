@@ -140,14 +140,12 @@ public class khulnafind extends FragmentActivity implements
         currentUserLocationMarker = mMap.addMarker(markerOptions);
 
         mMap.moveCamera(CameraUpdateFactory.newLatLng(latLng));
-        mMap.animateCamera(CameraUpdateFactory.zoomBy(12));
+        mMap.animateCamera(CameraUpdateFactory.zoomTo(8));
 
         if (googleApiClient != null) {
             LocationServices.FusedLocationApi.removeLocationUpdates(googleApiClient, this);
         }
-        LatLng khulna1= new LatLng( 	22.820000,  	89.550003);
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(khulna1));
-        mMap.animateCamera(CameraUpdateFactory.zoomTo(8));
+
 
         LatLng khulna = new LatLng(22.83143, 89.54352);
         mMap.addMarker(new MarkerOptions()

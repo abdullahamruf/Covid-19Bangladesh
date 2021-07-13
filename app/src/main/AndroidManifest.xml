@@ -35,8 +35,20 @@
             android:value="@string/google_maps_key" />
 
         <activity
+            android:name=".shyletfind"
+            android:label="@string/title_activity_shyletfind"></activity>
+        <activity android:name=".shylet" />
+        <activity
+            android:name=".barisalfind"
+            android:label="@string/title_activity_barisalfind" />
+        <activity android:name=".barisal" />
+        <activity
+            android:name=".chittagangfind"
+            android:label="@string/title_activity_chittagangfind" />
+        <activity android:name=".chittagnag" />
+        <activity
             android:name=".rajsahifind"
-            android:label="@string/title_activity_rajsahifind"></activity>
+            android:label="@string/title_activity_rajsahifind" />
         <activity android:name=".rajsahi" />
         <activity
             android:name=".mumfind"
@@ -50,13 +62,13 @@
             android:name=".khulnafind"
             android:label="@string/title_activity_khulnafind" />
         <activity android:name=".khulnadivison" />
-        <activity android:name=".health6"  />
-        <activity android:name=".health5"    />
-        <activity android:name=".health4"   />
-        <activity android:name=".health3"    />
+        <activity android:name=".health6" />
+        <activity android:name=".health5" />
+        <activity android:name=".health4" />
+        <activity android:name=".health3" />
         <activity android:name=".health2" />
-        <activity android:name=".health1"   />
-        <activity android:name=".healthandtips"  />
+        <activity android:name=".health1" />
+        <activity android:name=".healthandtips" />
         <activity
             android:name=".tracebd"
             android:label="@string/title_activity_tracebd" />

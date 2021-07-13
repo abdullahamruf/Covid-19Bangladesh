@@ -25,7 +25,7 @@ CardView dhaka,ctg,raj,shy,rang,mym,khu,bar;
        dhaka.setOnClickListener(new View.OnClickListener() {
            @Override
            public void onClick(View v) {
-               startActivity(new Intent(getApplicationContext(), dhakadivison.class));
+               startActivity(new Intent(getApplicationContext(), alldhakadivison.class));
            }
        });
        khu.setOnClickListener(new View.OnClickListener() {
@@ -53,6 +53,25 @@ CardView dhaka,ctg,raj,shy,rang,mym,khu,bar;
                 startActivity(new Intent(getApplicationContext(), rajsahi.class));
             }
         });
+       ctg.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(),chittagnag.class));
+            }
+        });
+        bar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), barisal.class));
+            }
+        });
+        shy.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), shylet.class));
+            }
+        });
+
 
 
 

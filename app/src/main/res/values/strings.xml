@@ -105,4 +105,7 @@
     <string name="title_activity_rangpurfind">Map</string>
     <string name="title_activity_mumfind">Map</string>
     <string name="title_activity_rajsahifind">Map</string>
+    <string name="title_activity_chittagangfind">Map</string>
+    <string name="title_activity_barisalfind">Map</string>
+    <string name="title_activity_shyletfind">Map</string>
 </resources>
